@@ -40,6 +40,7 @@ end
 
 def add_s(array)
   #binding.pry
+  array.collect do |word|
   if array[1] == word
     word
   else 
