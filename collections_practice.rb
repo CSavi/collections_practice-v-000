@@ -43,7 +43,7 @@ def add_s(array)
   new_array = []
   new_array << array.each_with_index.collect do |word|
     if array[1] == word
-    word
+      word
     else 
       puts "#{word + "s"}" 
     end 
