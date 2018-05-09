@@ -40,7 +40,7 @@ end
 
 def add_s(array)
   #binding.pry
-  if array[1] = word
+  if array[1] == word
     word
   else 
     puts word && "s"
