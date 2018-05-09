@@ -40,7 +40,7 @@ end
 
 def add_s(array)
   #binding.pry
-  array.each_with_index do |word, array[1]|
+  array.each_with_index do |word, index|
     word + "s"
   #end   
   end 
