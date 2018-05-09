@@ -41,16 +41,18 @@ end
 def add_s(array)
   #binding.pry
   array.collect do |word|
+    word + "s"
+  end 
+end   
     
     
     
     
-    
-    if array[1] == word
-      word 
-    else 
-      puts word + "s"
-    end
-  end   
-end 
+#   if array[1] == word
+#      word 
+#    else 
+#      puts word + "s"
+#    end
+#  end   
+#end 
   
